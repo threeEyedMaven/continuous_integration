@@ -1,0 +1,5 @@
+{
+  "test_math.py::TestMath::()::test_sum": true, 
+  "test_math.py::TestMath::()::test_sum_type": true, 
+  "test_maths.py::TestMath::()::test_sum": true
+}
