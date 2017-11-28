@@ -1,4 +1,4 @@
-from src import myprogram
+import src.myprogram as myprogram
 import pytest
 
 def test_doubleit():
