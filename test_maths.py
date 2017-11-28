@@ -9,4 +9,4 @@ class TestMath(object):
     	
     def test_sum_type(self):
     	with pytest.raises(TypeError):
-    		maths.sum("dharma", 10)
+			maths.sum("dharma", 10)
