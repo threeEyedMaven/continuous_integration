@@ -3,4 +3,5 @@ python: 3.6
 install:
     - pip install -r requirements.txt
 script: 
-    - pytest
+    - pytest test/test_maths.py
+    - pytest test/test_myprogram.py
