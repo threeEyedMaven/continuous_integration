@@ -1,6 +1,6 @@
 #! /usr/bin/env python3
 
-import maths
+from src import maths
 import pytest
 
 class TestMath(object):
