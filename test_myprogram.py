@@ -1,4 +1,7 @@
-import myprogram
+import sys
+sys.path.append("../")
+
+from src import myprogram
 import pytest
 
 def test_doubleit():

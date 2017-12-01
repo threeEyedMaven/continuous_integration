@@ -1,5 +1,8 @@
 #! /usr/bin/env python3
-import maths
+import sys
+sys.path.append("../")
+
+from src import maths
 import pytest
 
 class TestMath(object):
