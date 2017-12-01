@@ -1,5 +1,7 @@
 #! /usr/bin/env python3
 def fibonacci(n):
+	if not isinstance(n, int):
+        raise TypeError
     if n == 1: return 0
     a = 0
     b = 1
