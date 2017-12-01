@@ -1,4 +1,12 @@
 #! /usr/bin/env python3
+def fibonacci(n):
+    if n == 1: return 0
+    a = 0
+    b = 1
+    for i in range(n - 2):
+        a, b = b, a + b
+    return b
+
 def integerSum(n):
     if not isinstance(n, int):
         raise TypeError
