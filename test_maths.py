@@ -1,5 +1,5 @@
 #! /usr/bin/env python3
-import src.maths as maths
+import maths
 import pytest
 
 class TestMath(object):
