@@ -23,6 +23,7 @@ class TestMath(object):
     def test_integer_sum(self):
         assert maths.integerSum(10) == 55
         assert maths.integerSum(9) == 45
+        assert maths.integerSum(3) == 6
         
     def test_integer_sum_type(self):
         with pytest.raises(TypeError):
